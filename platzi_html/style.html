@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es-cl">
+   <head>
+      <meta charset="utf-8">
+      <title>CSS Style</title>
+      <meta name="description" content="Primer manejo de CSS">
+   </head>
+   <style>
+      /*p:first-child {
+        color: red;
+      }
+      p:last-child {
+	 color: green;
+      }*/
+      p:nth-child(2n) {
+	 color: blue;
+      }
+      P:nth-child(2n+1) {
+	 color: gray;
+      }
+   </style>
+   <body>
+      <p>Conejo</p>
+      <p>Perro</p>
+      <p>Vaca</p>
+      <p>Sapo</p>
+      <p>Zorro</p>
+   </body>
+</html>

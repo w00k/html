@@ -71,6 +71,13 @@
 	 color: white;
 	 font-size: 25px;
       }
+      .categories__title {
+      	color: white;
+	font-size: 16px;
+	position: absolute; 
+	padding-left: 30px;
+	width: 100%;
+      }
       .input {
 	 background-color: rgba(255, 255, 255, 0.1);
          border: 2px solid white;
@@ -122,10 +129,10 @@
       }
      .carousel-item__img {
         width: 200px;
-        height: 250px:
+        height: 250px;
         object-fit: cover;
      }
-       .carousel-item__details {
+     .carousel-item__details {
         background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
         font-size: 10px;
            opacity: 0;
@@ -150,8 +157,23 @@
         opacity: 1;
         color: white;
     }
+.footer {
+   background-color: #21c08d; 
+   display: flex;
+   align-items: center;
+   height: 100px;
+   width: 100%;
+}
+.footer a {
+   color: white;
+   cursor: pointer;
+   font-size: 14px;
+   padding-left: 30px;
+   text-decoration: none;
+}
    </style>
    <body>
+      <!-- header -->
       <header class="header">
 	 <img class="header__img" src="./resource/logo-platzi-video-BW2.png" alt="logo"> 
 	 <div class="header__menu">
@@ -165,6 +187,7 @@
 	    </ul>
 	 </div>
       </header>
+      <!-- content -->
       <section class="main">
 	 <h2 class="main__title">¿Qué quieres ver hoy?</h2>
 	 <input class="input" type="text" placeholder="Buscar...">
@@ -215,8 +238,12 @@
                   <p class="carousel-item__details--subtitle">2021-01-21</p>
             </div>
 	    </div>
-         
     	 </div>
       </section>
+	<footer class="footer">
+	   <a href="/">Terminos de uso</a>
+	   <a href="/">Declaracion de privacidad</a>
+	   <a href="/">Centro de ayuda</a>
+	</footer>	
    </body>
 </html>

@@ -36,6 +36,18 @@ body {
    justify-content: space-around; 
    flex-direction: column;
 }
+.login__not-found {
+    color: white;
+}
+.login__not-found h2 {
+   text-align: center;
+   font-size: 40px;
+   vertical-align: middle;
+   animation: beat .80s infinite alternate;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
 .login__container--form {
    display: flex;
    flex-direction: column;
@@ -124,4 +136,29 @@ body {
 }
 footer a:hover {
    text-decoration: underline; 
+}
+.login__container--start-session {
+    align-self: center;
+    font-size: 14px;
+}
+.login__container--start-session a {
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+}
+.login__container--start-session a:hover {
+   text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+   .login__container {
+   	background-color: transparent;
+	border: none; 
+	padding: 0px;
+	width: 100%;
+   }
+   .footer {
+   	align-items: flex-start;
+	flex-direction: column; 
+   }
 }

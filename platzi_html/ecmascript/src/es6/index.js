@@ -38,3 +38,23 @@ console.log(person.name, person.age);
 let {name, age, country} = person;
 
 console.log(name, age, country);
+
+let team1 = ['Oscar', 'Juilan', 'Ricardo'];
+let team2 = ['Valeria', 'Yessica', 'Camila'];
+
+let education = ['David', ...team1, ...team2];
+
+console.log('education ::: ' + education);
+
+{
+  var gobalVar = 'global var';
+}
+
+{
+  let globalLet = 'global let';
+  console.log('let ::: ' + globalLet); // otro scope
+}
+
+console.log('var ::: ' + gobalVar);
+
+

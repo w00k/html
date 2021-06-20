@@ -4,7 +4,9 @@
   "description": "trabajar con asincronismo en JS",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "callback:challengev2": "node src/callback/challengev2.js"
   },
   "keywords": [
     "callbacks",
@@ -13,7 +15,8 @@
   ],
   "author": "Francisco Horacio Arenas Massa",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "xmlhttprequest": "^1.8.0"
   }
 }
